@@ -1,0 +1,79 @@
+# place images in:
+# img/sponsors/file.jpg
+# img/sponsors/guide.pdf
+
+pdf:
+call_for_sponsor: true
+
+main:
+  price: € 5,000
+  offer:
+    - Accesso alla lista partecipanti opt-in
+    - Possibilità di tenere un talk tecnico (sono escluse le tematiche commerciali).
+      Il talk dovrà essere preapprovato dagli organizzatori.
+    - Banchetto principale 2m x 1m in sala o nella hall
+    - Posizionamento vostro roll-up in sala
+    - Vostro logo sui roll-up dell'evento
+    - Pubblicità nelle comunicazioni pre-evento
+    - Banner sul sito
+    - Autorizzazione a portare pubblicità e gadget (volantini, adesivi, magliette)
+    - 5 biglietti gratuiti
+  max: 1
+  list:
+
+platinum:
+  price: € 3,000
+  offer:
+    - Banchetto 1m x 1m in sala o nella hall
+    - Posizionamento vostro roll-up in sala
+    - Vostro logo sui roll-up dell'evento
+    - Pubblicità nelle comunicazioni pre-evento
+    - Banner sul sito
+    - Autorizzazione a portare pubblicità e gadget (volantini, adesivi, magliette)
+    - 4 biglietti gratuiti
+  max: 2
+  list:
+
+gold:
+  price: € 1,000
+  offer:
+    - Posizionamento vostro roll-up in sala
+    - Vostro logo sui roll-up dell'evento
+    - Pubblicità nelle comunicazioni pre-evento
+    - Banner sul sito
+    - Autorizzazione a portare pubblicità e gadget (volantini, adesivi, magliette)
+    - 3 biglietti gratuiti
+  max: 8
+  list:
+    -
+      url: http://www.ideato.it?utm_source=symfonyday
+      image: ideato.svg
+
+silver:
+  price: € 500
+  offer:
+    - Vostro logo sui roll-up dell'evento
+    - Pubblicità nelle comunicazioni pre-evento
+    - Banner sul sito
+    - Autorizzazione a portare pubblicità e gadget (volantini, adesivi, magliette)
+    - 2 biglietti gratuiti
+  max: 16
+  list:
+    -
+      url: https://labs.madisoft.it/symfony-developer/?utm_source=symfonyday
+      image: madisoft.svg
+    -
+      url: https://www.facile.it/?utm_source=sfday2018
+      image: facile.svg
+
+bronze:
+  price: € 300
+  offer:
+    - Banner sul sito
+    - Autorizzazione a portare pubblicità e gadget (volantini, adesivi, magliette)
+    - 1 biglietto gratuito
+  max: 32
+  list:
+    -
+      url: https://www.siteground.com/?utm_source=symfonyday
+      image: siteground.svg
