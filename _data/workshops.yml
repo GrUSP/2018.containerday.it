@@ -90,3 +90,97 @@ list:
       La durata del corso è di una giornata e **si terrà il 18 Ottobre** (il giorno prima del SymfonyDay).
       Qualche giorno prima del corso verrà fornito un repository git a tutti i partecipanti, con il codice applicativo e la macchina virtuale per far girare i test e l’applicazione.
       È responsabilità del partecipante arrivare con la macchina virtuale funzionante o con il progetto funzionante sulla propria macchina locale. Vi daremo tutte le indicazioni utili per la configurazione.
+  -
+    slug: sviluppare-con-symfony-4-workshop
+    title: Sviluppare con Symfony 4
+    when: 18 Ottobre 2018, Verona
+    where: Hotel San Marco, Via Longhena 42, 37138, Verona, Italy
+    map: https://goo.gl/maps/iqQ6n6bNAf72
+    ticket: https://www.eventbrite.it/e/symfonyday-2018-tickets-44688021074
+    teacher:
+      name: Michele Orselli
+      picture: michele.jpg
+      bio: software engineer at ideato
+      link: http://twitter.com/_orso_
+    intro: |
+      Il corso ha l’obiettivo di far conoscere le principali novità di Symfony 4.x partendo da un approccio teorico fino ad arrivare all’implementazione di un caso d’uso. Alla fine del corso avrete solide basi sull’argomento e del codice funzionante da utilizzare come punto di partenza per i vostri progetti.
+    program: |
+      Scaletta corso:
+      - modello request / response (più che MVC)
+      - installazione
+      - organizzazione codice
+      - symfony flex
+      - gestione asset
+      - Creazione di una pagina
+          - controller
+          - twig
+          - routing
+          - integrazione con database
+          - gestione pagine di errore
+      - come utilizzare le form in maniera disaccoppiata
+      - dependency injection
+      - gestione environment
+      - compenente security
+      - cli
+      - testing
+      - profiling e debugging
+      - invio email
+
+      Impareremo ad utilizzare il framework implementando un'applicazione reale che potrete usare come punto di partenza per i vostri progetti.
+    addressed_info: |
+      Il corso è rivolto a chi vuole accelerare la sua curva di apprendimento sull’argomento e capire in quali casi è utile utilizzare questo framework. Conoscenze richieste:
+      - PHP
+      - Programmazione ad oggetti
+      - Symfony Base
+      - Unit test (opzionale)
+    useful_info: |
+      La durata del corso è di una giornata e **si terrà il 18 Ottobre** (il giorno prima del SymfonyDay).
+      Qualche giorno prima del corso verrà fornito un repository git a tutti i partecipanti, con il codice applicativo e la macchina virtuale per far girare i test e l’applicazione.
+      È responsabilità del partecipante arrivare con la macchina virtuale funzionante o con il progetto funzionante sulla propria macchina locale. Vi daremo tutte le indicazioni utili per la configurazione.
+  -
+    slug: sviluppare-con-symfony-4-workshop
+    title: Sviluppare con Symfony 4
+    when: 18 Ottobre 2018, Verona
+    where: Hotel San Marco, Via Longhena 42, 37138, Verona, Italy
+    map: https://goo.gl/maps/iqQ6n6bNAf72
+    ticket: https://www.eventbrite.it/e/symfonyday-2018-tickets-44688021074
+    teacher:
+      name: Michele Orselli
+      picture: michele.jpg
+      bio: software engineer at ideato
+      link: http://twitter.com/_orso_
+    intro: |
+      Il corso ha l’obiettivo di far conoscere le principali novità di Symfony 4.x partendo da un approccio teorico fino ad arrivare all’implementazione di un caso d’uso. Alla fine del corso avrete solide basi sull’argomento e del codice funzionante da utilizzare come punto di partenza per i vostri progetti.
+    program: |
+      Scaletta corso:
+      - modello request / response (più che MVC)
+      - installazione
+      - organizzazione codice
+      - symfony flex
+      - gestione asset
+      - Creazione di una pagina
+          - controller
+          - twig
+          - routing
+          - integrazione con database
+          - gestione pagine di errore
+      - come utilizzare le form in maniera disaccoppiata
+      - dependency injection
+      - gestione environment
+      - compenente security
+      - cli
+      - testing
+      - profiling e debugging
+      - invio email
+
+      Impareremo ad utilizzare il framework implementando un'applicazione reale che potrete usare come punto di partenza per i vostri progetti.
+    addressed_info: |
+      Il corso è rivolto a chi vuole accelerare la sua curva di apprendimento sull’argomento e capire in quali casi è utile utilizzare questo framework. Conoscenze richieste:
+      - PHP
+      - Programmazione ad oggetti
+      - Symfony Base
+      - Unit test (opzionale)
+    useful_info: |
+      La durata del corso è di una giornata e **si terrà il 18 Ottobre** (il giorno prima del SymfonyDay).
+      Qualche giorno prima del corso verrà fornito un repository git a tutti i partecipanti, con il codice applicativo e la macchina virtuale per far girare i test e l’applicazione.
+      È responsabilità del partecipante arrivare con la macchina virtuale funzionante o con il progetto funzionante sulla propria macchina locale. Vi daremo tutte le indicazioni utili per la configurazione.

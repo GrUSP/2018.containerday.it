@@ -6,9 +6,10 @@ pdf:
 call_for_sponsor: true
 
 main:
-  price: € 5,000
+  price: € 10,000
   offer:
-    - Accesso alla lista partecipanti opt-in
+    - Banchetto 1m x 2m in sala o nella hall
+    - Accesso alla lista partecipanti opt-in (in conformità alle leggi vigenti)
     - Possibilità di tenere un talk tecnico (sono escluse le tematiche commerciali).
       Il talk dovrà essere preapprovato dagli organizzatori.
     - Banchetto principale 2m x 1m in sala o nella hall
@@ -17,8 +18,22 @@ main:
     - Pubblicità nelle comunicazioni pre-evento
     - Banner sul sito
     - Autorizzazione a portare pubblicità e gadget (volantini, adesivi, magliette)
-    - 5 biglietti gratuiti
+    - 10 biglietti gratuiti
   max: 1
+  list:
+
+diamond:
+  price: € 5,000
+  offer:
+    - Banchetto 1m x 1m in sala o nella hall
+    - Accesso alla lista partecipanti opt-in (in conformità alle leggi vigenti)
+    - Posizionamento vostro roll-up in sala
+    - Vostro logo sui roll-up dell'evento
+    - Pubblicità nelle comunicazioni pre-evento
+    - Banner sul sito
+    - Autorizzazione a portare pubblicità e gadget (volantini, adesivi, magliette)
+    - 6 biglietti gratuiti
+  max: 2
   list:
 
 platinum:
@@ -31,9 +46,11 @@ platinum:
     - Banner sul sito
     - Autorizzazione a portare pubblicità e gadget (volantini, adesivi, magliette)
     - 4 biglietti gratuiti
-  max: 2
+  max: 8
   list:
-
+    -
+      url: http://www.4devops.it?utm_source=containerday
+      image: 4devops.svg
 gold:
   price: € 1,000
   offer:
@@ -43,10 +60,10 @@ gold:
     - Banner sul sito
     - Autorizzazione a portare pubblicità e gadget (volantini, adesivi, magliette)
     - 3 biglietti gratuiti
-  max: 8
+  max: 16
   list:
     -
-      url: http://www.ideato.it?utm_source=symfonyday
+      url: http://www.ideato.it?utm_source=containerday
       image: ideato.svg
 
 silver:
@@ -57,23 +74,13 @@ silver:
     - Banner sul sito
     - Autorizzazione a portare pubblicità e gadget (volantini, adesivi, magliette)
     - 2 biglietti gratuiti
-  max: 16
+  max: 32
   list:
-    -
-      url: https://labs.madisoft.it/symfony-developer/?utm_source=symfonyday
-      image: madisoft.svg
-    -
-      url: https://www.facile.it/?utm_source=sfday2018
-      image: facile.svg
 
 bronze:
   price: € 300
   offer:
     - Banner sul sito
-    - Autorizzazione a portare pubblicità e gadget (volantini, adesivi, magliette)
     - 1 biglietto gratuito
-  max: 32
+  max: 64
   list:
-    -
-      url: https://www.siteground.com/?utm_source=symfonyday
-      image: siteground.svg

@@ -23,12 +23,12 @@ css:
   themes:
     -
       autoprefixer: true
-      compile: _frontend/frontsize/symfonyday-2018/import.scss
+      compile: _frontend/frontsize/containerday-2018/import.scss
       csslint: false
-      file: symfonyday.css
-      images: _frontend/frontsize/symfonyday-2018/img/**/*.*
+      file: containerday.css
+      images: _frontend/frontsize/containerday-2018/img/**/*.*
       merge: true
-      name: symfonyday
+      name: containerday
       path: _frontend/temp/
       stylestats: false
     -
