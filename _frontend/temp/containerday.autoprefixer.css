@@ -4982,3 +4982,146 @@ body {
     display: none;
   }
 }
+
+.intro {
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+  height: 100vh;
+  position: relative;
+}
+
+.intro--no-height {
+  height: auto !important;
+}
+
+@media (max-width: 479px) {
+  .intro {
+    height: 250px;
+    margin-top: 50px;
+  }
+}
+
+@media (min-width: 480px) {
+  .intro {
+    height: 100vh;
+    margin-top: 20px;
+  }
+}
+
+@media (min-width: 768px) {
+  .intro {
+    height: 430px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .intro {
+    height: 750px;
+  }
+}
+
+@media (min-width: 1800px) {
+  .intro {
+    height: 100vh;
+  }
+}
+
+.intro__title {
+  font-family: "proxima-nova", helvetica, arial, sans-serif;
+  font-size: 38px;
+  margin-top: 40px;
+  background-color: #f7951e;
+}
+
+@media (min-width: 480px) {
+  .intro__title {
+    font-size: 60px;
+    margin-top: 70px;
+  }
+}
+
+@media (min-width: 768px) {
+  .intro__title {
+    font-size: 80px;
+    margin-top: 90px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .intro__title {
+    font-size: 120px;
+    margin-top: 210px;
+  }
+}
+
+@media (min-width: 1800px) {
+  .intro__title {
+    font-size: 130px;
+  }
+}
+
+.intro__where-when {
+  font-family: georgia, "times new roman", times, serif;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 40px;
+  background-color: #f7951e;
+}
+
+@media (max-width: 767px) {
+  .intro__where-when {
+    font-size: 20px;
+  }
+}
+
+.intro__register {
+  background-color: #f7951e;
+  bottom: -130px;
+  color: white;
+  display: block;
+  font-family: "proxima-nova", helvetica, arial, sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 90px;
+  padding: 20px 40px;
+  position: absolute;
+  right: 0;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: background-color 0.25s ease-out;
+  width: 50%;
+}
+
+.intro__register:hover {
+  background-color: #f8a137;
+}
+
+.intro__register--sold-out:hover {
+  background-color: #f7951e;
+}
+
+@media (min-width: 1024px) {
+  .intro__register--sold-out:hover::after {
+    color: #2d2d2d;
+    content: 'maybe next time!';
+  }
+}
+
+@media (max-width: 1279px) {
+  .intro__register {
+    text-align: center;
+    width: 100%;
+  }
+  .intro__register .intro__icon {
+    display: none;
+  }
+}
+
+.intro__icon {
+  float: left;
+  font-size: 40px;
+  position: relative;
+  transition: left 0.125s ease-out;
+}
