@@ -12,12 +12,12 @@ schedule_available: false
 workshop_available: false
 
 iubenda:
-  cookiePolicyId: 29098106
-  siteId: 1078163
+  cookiePolicyId: 56006001
+  siteId: 1269341
   lang: it
   enableRemoteConsent: true
   localConsentDomain: containerday.it
   rebuildIframe: true
 
 google:
-  tag_manager_id: GTM-P5GXBFP
+  tag_manager_id: GTM-NJWQQRC
