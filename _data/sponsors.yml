@@ -76,6 +76,9 @@ silver:
     - 2 biglietti gratuiti
   max: 32
   list:
+    -
+      url: https://labs.madisoft.it/devops-engineer/
+      image: madisoft.svg
 
 bronze:
   price: € 300
