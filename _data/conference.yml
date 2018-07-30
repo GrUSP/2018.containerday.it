@@ -1,15 +1,15 @@
 name: ContainerDay
 utm_source: containerday
-og_image: http://2018.containerday.it/img/confs/containerday/header.png
+og_image: https://2018.containerday.it/img/confs/containerday/header.png
 og_description: Una giornata interamente dedicata a Docker, Kubernetes ed alle tecnologie di virtualizzazione per il mondo DevOps. 8 sessioni tecniche presentate da professionisti che fanno della scalabilità e gestibilità del software la sfida di ogni giorno.
 slug: containerday
-url: http://2018.containerday.it
+url: https://2018.containerday.it
 where_when: Verona, 25-26 ottobre 2018
 year: 2018
 since: 2016
 talks_available: false
 schedule_available: false
-workshop_available: false
+workshop_available: true
 
 iubenda:
   cookiePolicyId: 56006001
