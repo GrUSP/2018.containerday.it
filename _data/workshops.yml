@@ -77,9 +77,9 @@ list:
       name: Kiratech
       link: http://www.kiratech.it
     teacher:
-      name: "Francesco Tornieri"
+      name: Francesco Tornieri
       picture:
-      bio: "Francesco, si occupa di sicurezza informatica e di sistemi open-source da oltre quindici anni. Ha pubblicato numerosi articoli su riviste come Linux Journal e Hakin9. E' autore del libro "Linux. Configurarlo al meglio". È membro dell’AIPSI - Associazione Italiana Professionisti Sicurezza Informatica. E' certificatore CAcert per certificati SSL. Ricopre la carica di assistente universitario presso l'Università Cattolica di Milano. E' trainer certificato Docker."
+      bio: "Francesco, si occupa di sicurezza informatica e di sistemi open-source da oltre quindici anni. Ha pubblicato numerosi articoli su riviste come Linux Journal e Hakin9. E' autore del libro _Linux. Configurarlo al meglio_. È membro dell’AIPSI - Associazione Italiana Professionisti Sicurezza Informatica. E' certificatore CAcert per certificati SSL. Ricopre la carica di assistente universitario presso l'Università Cattolica di Milano. E' trainer certificato Docker."
       link:
     intro: |
       "Il workshop sarà introduttivo alle due tecnologie Docker & Kubernetes per la gestione di un'infrastruttura containerizzata e per la relativa orchestrazione e verrà tenuto da Francesco Tornieri, Official Docker Trainer.
