@@ -41,7 +41,7 @@ list:
       link: https://www.biodec.it
     teacher:
       name: Serena Lorenzini
-      picture: 
+      picture:
       bio: Ph.D., BioDec
       link:
     intro: |
@@ -66,3 +66,43 @@ list:
     useful_info: |
       La durata del corso è di una giornata e **si terrà il 25 Ottobre** (il giorno prima del ContainerDay).
       È responsabilità del partecipante arrivare con portatile configurato e funzionante con Vagrant. Vi daremo tutte le indicazioni utili per la configurazione.
+  -
+    slug: workshop-docker-kubernetes
+    title: Workshop Docker & Kubernetes
+    when: 25 Ottobre 2018, Verona
+    where: Hotel San Marco, Via Longhena 42, 37138, Verona, Italy
+    map: https://goo.gl/maps/iqQ6n6bNAf72
+    ticket: https://www.eventbrite.it/e/biglietti-workshop-docker-kubernetes-container-day-2018-48441549980
+    partner:
+      name: Kiratech
+      link: http://www.kiratech.it
+    teacher:
+      name: "Francesco Tornieri"
+      picture:
+      bio: "Francesco, si occupa di sicurezza informatica e di sistemi open-source da oltre quindici anni. Ha pubblicato numerosi articoli su riviste come Linux Journal e Hakin9. E' autore del libro "Linux. Configurarlo al meglio". È membro dell’AIPSI - Associazione Italiana Professionisti Sicurezza Informatica. E' certificatore CAcert per certificati SSL. Ricopre la carica di assistente universitario presso l'Università Cattolica di Milano. E' trainer certificato Docker."
+      link:
+    intro: |
+      "Il workshop sarà introduttivo alle due tecnologie Docker & Kubernetes per la gestione di un'infrastruttura containerizzata e per la relativa orchestrazione e verrà tenuto da Francesco Tornieri, Official Docker Trainer.
+       Docker è un progetto open source che automatizza il deployment di applicazioni all'intero di Container software, fornendo un'astrazione addizionale grazie alla virtualizzazione a livello di sistema operativo. Docker utilizza le funzionalità di isolamento delle risorse del kernel Linux come ad esempio cgroups e namespaces per consentire a "container" indipendenti di coesistere sulla stessa istanza, evitando l'installazione e la manutenzione di una macchina virtuale.
+       Kubernetes è una piattaforma open source che automatizza le operazioni sui container Linux, eliminando molti dei processi manuali necessari per eseguire il deployment e scalare le applicazioni containerizzate. È possibile creare un cluster di gruppi di host che eseguono container Linux e utilizzare Kubernetes per gestire tali cluster in modo semplice ed efficiente. I cluster possono includere host situati su cloud pubblici, privati o ibridi.
+       Per le aziende che utilizzano i container, la funzione principale per cui viene utilizzato Kubernetes è l’orchestrazione: quest’ultima consente di interagire con interi gruppi di container contemporaneamente, pianificare e implementare un registro dei container, oltre che di fornire servizi di rete, storage, sicurezza e telemetria."
+    program: |
+      "Il workshop si svolgerà Giovedì 25 Ottobre, giorno precedente alla Conferenza Container Day 2018, dalle 9:30 alle 18:00 a Verona presso l'Hotel San Marco Via Longhena 42 . Di seguito l’Agenda della giornata:
+        - Introduction to Containers
+        - Docker, containers and images
+        - Running and managing containers
+        - Building images
+        - Volumes
+        - Networking
+        - Clustering and orchestrator: intro to swarm
+        - Manage complex architecture: intro to docker compose
+        - Docker DEMO
+        - Intro to Kubernetes
+        - Kubernetes architecture
+        - Kubernetes + Docker
+        - Kubernetes DEMO
+        "
+    addressed_info: |
+      "È richiesta familiarità con gli ambienti UN*X sia per quanto concerne i concetti di funzionamento (servizi, permessi, filesystem, ...) sia per l'utilizzo dell'ambiente a riga di comando."
+    useful_info: |
+      "E' necessario avere una ambiente VM con docker già preinstallato (fare riferimento all docs ufficiale per avere maggiori informazioni in merito https://docs.docker.com/engine/installation/#server-). Verrà utilizzata la versione Docker CE."
