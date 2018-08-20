@@ -5,7 +5,7 @@ list:
     when: 25 Ottobre 2018, Verona
     where: Hotel San Marco, Via Longhena 42, 37138, Verona, Italy
     map: https://goo.gl/maps/iqQ6n6bNAf72
-    ticket: https://www.eventbrite.com/e/biglietti-containerday-2018-46822209489
+    ticket: /tickets.html
     partner:
       name: ideato
       link: https://www.ideato.it
@@ -35,7 +35,7 @@ list:
     when: 25 Ottobre 2018, Verona
     where: Hotel San Marco, Via Longhena 42, 37138, Verona, Italy
     map: https://goo.gl/maps/iqQ6n6bNAf72
-    ticket: https://www.eventbrite.it/e/symfonyday-2018-tickets-44688021074
+    ticket: /tickets.html
     partner:
       name: biodec
       link: https://www.biodec.it
