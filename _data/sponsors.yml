@@ -76,6 +76,8 @@ silver:
     - 2 biglietti gratuiti
   max: 32
   list:
+    - url: https://www.workwave.com/?utm_source=containerday
+      image: workwave.svg
 
 bronze:
   price: € 300
