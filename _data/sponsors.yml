@@ -76,6 +76,10 @@ silver:
     - 2 biglietti gratuiti
   max: 32
   list:
+    -
+      url: https://labs.madisoft.it/devops-engineer/
+      image: madisoft.svg
+
     - url: https://www.workwave.com/?utm_source=containerday
       image: workwave.svg
 

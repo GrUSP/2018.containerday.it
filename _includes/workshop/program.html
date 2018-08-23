@@ -4,7 +4,7 @@
   </h1>
 
   <h1 class="row__title">
-    <a href="{{ site.data.tickets.url }}" target="_blank" class="button button--register">Registrati</a>
+    <a href="{{ workshop.ticket }}" target="_blank" class="button button--register">Registrati</a>
   </h1>
 
 </div>
@@ -18,7 +18,7 @@
 
 <h3 class="row__title">
   un workshop realizzato in collaborazione con
-  <a class="link" href="http://www.ideato.it/?utm_source={{ site.data.conference.utm_source }}">ideato</a>
+  <a class="link" href="{{workshop.partner.link}}?utm_source={{ site.data.conference.utm_source }}">{{workshop.partner.name}}</a>
 </h3>
 
 <hr class="hr">
@@ -29,9 +29,11 @@
   </div>
   <div class="row__column">
     <a href="{{ workshop.teacher.link }}" class="teacher">
+      {% if workshop.teacher.picture %}
       <div class="teacher__avatar">
         <img src="/img/teachers/{{ workshop.teacher.picture }}" class="teacher__picture">
       </div>
+      {% endif %}
       <div class="teacher__contents">
         <div class="teacher__name">
           {{ workshop.teacher.name }}
@@ -55,7 +57,7 @@
 
 
   <div class="row__column">
-    <a href="{{ site.data.tickets.url }}" target="_blank" class="button button--register">Registrati</a>
+    <a href="{{ workshop.ticket }}" target="_blank" class="button button--register">Registrati</a>
   </div>
 </div>
 
@@ -73,7 +75,7 @@
   </div>
 
   <p class="row__column">
-    <a href="{{ site.data.tickets.url }}" target="_blank" class="button button--register">Registrati</a>
+    <a href="{{ workshop.ticket }}" target="_blank" class="button button--register">Registrati</a>
   </p>
 
 </div>
