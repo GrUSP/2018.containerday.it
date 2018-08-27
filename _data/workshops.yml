@@ -100,6 +100,10 @@ list:
         - Intro to Kubernetes
         - Kubernetes architecture
         - Kubernetes + Docker
+        - Tipologia di oggetti Kubernetes
+        - Modelli di network
+        - Gestione di connessioni interne ed esterne
+        - Volumi persistenti
         - Kubernetes DEMO
     addressed_info: |
       È richiesta familiarità con gli ambienti UN*X sia per quanto concerne i concetti di funzionamento (servizi, permessi, filesystem, ...) sia per l'utilizzo dell'ambiente a riga di comando.
