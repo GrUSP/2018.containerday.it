@@ -35,7 +35,12 @@ diamond:
     - 6 biglietti gratuiti
   max: 2
   list:
-
+   - 
+     url: http://www.nutanix.it
+     image: nutanix.svg
+   -
+     url: http://www.4devops.it?utm_source=containerday
+     image: 4devops.svg
 platinum:
   price: € 3,000
   offer:
@@ -49,8 +54,9 @@ platinum:
   max: 8
   list:
     -
-      url: http://www.4devops.it?utm_source=containerday
-      image: 4devops.svg
+      url: http://www.ideato.it?utm_source=containerday
+      image: ideato.svg
+
 gold:
   price: € 1,000
   offer:
@@ -62,9 +68,6 @@ gold:
     - 3 biglietti gratuiti
   max: 16
   list:
-    -
-      url: http://www.ideato.it?utm_source=containerday
-      image: ideato.svg
 
 silver:
   price: € 500
