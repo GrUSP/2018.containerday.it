@@ -3,3 +3,52 @@
 call_for_paper_url: https://goo.gl/forms/yuEjoOWzLb5x04bQ2
 call_for_paper: false
 list:
+  -
+    id: alessandro-mazzoli
+    description:
+    image: mazzoli.jpg
+    first_name: Alessandro
+    last_name: Mazzoli
+    twitter: alendmazz
+  -
+    id: martino-fornasa
+    description:
+    image: fornasa.jpg
+    first_name: Martino
+    last_name: Fornasa
+    twitter: mfornasa
+  -
+    id: vincenzo-laudizio
+    description:
+    image: laudizio.jpg
+    first_name: Vincenzo
+    last_name: Laudizio
+    twitter: "#"
+  -
+    id: giovanni-toraldo
+    description:
+    image: toraldo.jpg
+    first_name: Giovanni
+    last_name: Toraldo
+    twitter: gionn
+  -
+    id: massimo-referre
+    description:
+    image: referre.jpg
+    first_name: Massimo
+    last_name: Re Ferre'
+    twitter: mreferre
+  -
+    id: adriano-decicco
+    description:
+    image: decicco.jpg
+    first_name: Adriano
+    last_name: De Cicco
+    twitter:
+# -
+#   id:
+#   description:
+#   image:
+#   first_name:
+#   last_name:
+#   twitter:

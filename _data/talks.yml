@@ -1,0 +1,50 @@
+-
+  speaker_id:
+    - alessandro-mazzoli
+  title: "KOPS - automate, version and deploy a fully production Kubernetes cluster on AWS"
+  extract: >
+    Vedrai come sarà possibile creare un cluster Kubernetes, subito production ready con https://github.com/kubernetes/kops, multi-AZ, multi-master generando infine un template Terraform con cui potrai mantenere la tua infrastruttura
+-
+  speaker_id:
+    - martino-fornasa
+  title: "How to Build an Effective Container-Based Local Development Environment"
+  extract: >
+    "An effective local environment allows for faster developer onboarding and easier knowledge transfer. Developers should be able to build and deploy to a local environment that matches production closely. For container-based applications, the logical choice would be doing the local development inside containers. However, this is often not happening: creating an effective local development environment is challenging, and adding containers to the mix can make it worse.
+    This talk will discuss building an effective container-based local environment for software development which is fast, respects developers’ preferences (IDE choice, etc.), do not break application-specific mechanisms (hot-reload, etc.), and it is maintainable. Failure to achieve such goals is likely to result in frustrated developers trying to bypass the system in order to get work done, hindering the benefits of this approach.
+    The audience is anyone involved in the development and operations of an application deployed on a container platform. Attendees can expect an in-depth analysis of the benefits of using containers for local development, of the involved challenges and how to overcome them, and of the possible mistakes that could result in a failure."
+
+-
+  speaker_id:
+    - vincenzo-laudizio
+  title: La nostra infrastruttura di produzione a container con Docker,Rancher e ZFS
+  extract: >
+    "Esperienza di migrazione di un intero sistema informativo da VM a container, utilizzando Docker, Rancher e ZFS.
+    Durante lo speech verrà mostrato come abbiamo ristrutturato il nostro sistema informativo aziendale affrontando tematiche di disaster recovery, monitoraggio e backup.
+    Saranno illustrati i vantaggi ottenuti e le sfide che abbiamo dovuto affrontare durante la migrazione di Alfresco, Gitlab, Redmine, SemanticMediaWiki.
+    Migrando a container abbiamo ottenuto backup online 24x7, la possibilità di creare ambienti on-demand per le migrazioni e l'indipendenza dal provider dell'infrastruttura."
+-
+  speaker_id:
+    - giovanni-toraldo
+  title: Introduzione a Traefik
+  extract: >
+    "Scopriamo insieme il load-balancer open-source traefik, con supporto nativo alla configurazione dinamica, l'integrazione con i più diffusi componenti di infrastruttura, certificati SSL con Let's Encrypt e metriche Prometheus."
+
+-
+  speaker_id:
+    - massimo-referre
+  title: "Amazon Elastic Container Service for Kubernetes (EKS)"
+  extract: >
+    "In this talk we will quickly describe what Amazon Elastic Container Service for Kubernetes (EKS) is and what the customer requirements that led us to its development were. After this quick introduction, we will have a real customer that have been using EKS since the technical preview talking about their experience with the service."
+-
+  speaker_id:
+    - adriano-decicco
+  title: "Nutanix Epoch (Netsil) Universal Observatory and Monitoring for Modern Cloud Apps"
+  extract: >
+    "Kubernetes si è affermato come leader nella orchestrazione di container e la sua complessità porta a nuove sfide nel monitoraggio dei cluster di produzione.
+    Nutanix Epoch (prima noto come Netsil) è un prodotto per l’osservabilità e il monitoraggio di applicazioni cloud-native basate su Kubernetes. Nel corso del talk esploreremo l’approccio di Epoch nella discovery automatica delle applicazioni e delle loro componenti, permettendo di ottenere una mappa in real-time del sistema.
+    Il sistema può essere mappato a molteplici livelli: deployment, namespace, service e pod, senza necessità di modifiche al codice applicativo."
+# -
+#   speaker_id:
+#     -
+#   title:
+#   extract: >

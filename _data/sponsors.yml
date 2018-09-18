@@ -93,3 +93,9 @@ bronze:
     - 1 biglietto gratuito
   max: 64
   list:
+    - 
+      url: http://aws.amazon.com?utm_source=containerday2018
+      image: aws.svg
+    -
+      url: http://www.imolainformatica.it?utm_source=containerday2018
+      image: imolainformatica.png
