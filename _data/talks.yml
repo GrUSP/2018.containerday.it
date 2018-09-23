@@ -43,6 +43,21 @@
     "Kubernetes si è affermato come leader nella orchestrazione di container e la sua complessità porta a nuove sfide nel monitoraggio dei cluster di produzione.
     Nutanix Epoch (prima noto come Netsil) è un prodotto per l’osservabilità e il monitoraggio di applicazioni cloud-native basate su Kubernetes. Nel corso del talk esploreremo l’approccio di Epoch nella discovery automatica delle applicazioni e delle loro componenti, permettendo di ottenere una mappa in real-time del sistema.
     Il sistema può essere mappato a molteplici livelli: deployment, namespace, service e pod, senza necessità di modifiche al codice applicativo."
+-
+  speaker_id:
+    - paolo-mainardi
+  title: "Alibaba cloud Container Service deep diving"
+  extract: >
+    "In questo talk faremo una overview del Container service di Alibaba cloud, esplorandone le potenzialità e le problematiche comuni da tenere in considerazione, vedremo come fare provisioning di cluster in maniera automatica (swarm e kubernetes), come fare monitoraggio  e come tenere sotto controllo i costi."
+-
+  speaker_id:
+    - dario-tranchitella
+  title: "Kubernetes Pod: deep-dive"
+  extract: >
+    "Gli attuali orchestratori di container ci hanno portato con successo a ragionare per astrazione, senza curarci nel dettaglio di cosa avviene dietro le quinte. Fintanto che parliamo di container, sappiamo qual'è la ""black magic"": namespace, cgroups, aufs... ma il concetto stesso di container è diventato obsoleto (sic) e le moderne architetture cloud-native richiedono l'adozione di pattern più complessi quali Adapater, Configurator, Ambassador ed altri.
+    Spesso si associa il concetto di Pod a Container ma è assolutamente sbagliato: ma d'altronde, chi sa davvero cosa sia un Pod, cosa avviene dietro le quinte e come Kubernetes lo orchestri?
+    L'obiettivo del talk sarà quello di illustrare come Kubernetes ci permetta di applicare correttamente i Container Pattern per risolvere problemi ed utilizzare un common-language.
+    Infine costruiremo un orchestratore di Pod con l'intendo di capire appieno gli internals che opera Kubernetes per fornire questa astrazione."
 # -
 #   speaker_id:
 #     -

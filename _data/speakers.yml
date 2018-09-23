@@ -45,6 +45,20 @@ list:
     first_name: Adriano
     last_name: De Cicco
     twitter:
+  -
+    id: dario-tranchitella
+    description:
+    image: dario-tranchitella.jpg
+    first_name: Dario
+    last_name: Tranchitella
+    twitter: tranchitellad
+  -
+    id: paolo-mainardi
+    description:
+    image: paolo-mainardi.jpg
+    first_name: Paolo
+    last_name: Mainardi
+    twitter: paolomainardi
 # -
 #   id:
 #   description:
