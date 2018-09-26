@@ -7,12 +7,11 @@
 -
   speaker_id:
     - martino-fornasa
-  title: "How to Build an Effective Container-Based Local Development Environment"
+  title: "Progettare un ambiente di sviluppo locale basato sui container"
   extract: >
-    "An effective local environment allows for faster developer onboarding and easier knowledge transfer. Developers should be able to build and deploy to a local environment that matches production closely. For container-based applications, the logical choice would be doing the local development inside containers. However, this is often not happening: creating an effective local development environment is challenging, and adding containers to the mix can make it worse.
-    This talk will discuss building an effective container-based local environment for software development which is fast, respects developers’ preferences (IDE choice, etc.), do not break application-specific mechanisms (hot-reload, etc.), and it is maintainable. Failure to achieve such goals is likely to result in frustrated developers trying to bypass the system in order to get work done, hindering the benefits of this approach.
-    The audience is anyone involved in the development and operations of an application deployed on a container platform. Attendees can expect an in-depth analysis of the benefits of using containers for local development, of the involved challenges and how to overcome them, and of the possible mistakes that could result in a failure."
-
+    "Un ambiente di sviluppo locale efficiente facilita l’avvicendamento degli sviluppatori su un progetto, aiuta la condivisione delle informazioni e mette gli sviluppatori nella condizione di poter eseguire il build in locale in un ambiente simile a quello di produzione. Nel caso di ambienti di produzione basati su container la scelta più logica è svolgere l’attività di sviluppo software all’interno di container.
+    Tuttavia, la progettazione di un ambiente di sviluppo locale efficiente pone molte sfide.
+    In questo intervento presenterò un approccio efficace per l’implementazione di un ambiente di sviluppo locale di facile manutenzione che permetta iterazioni veloci, rispetti le preferenze degli sviluppatori e non disabiliti meccanismi specifici dello stack applicativo (ad esempio hot-reload)."
 -
   speaker_id:
     - vincenzo-laudizio
@@ -58,8 +57,9 @@
     Spesso si associa il concetto di Pod a Container ma è assolutamente sbagliato: ma d'altronde, chi sa davvero cosa sia un Pod, cosa avviene dietro le quinte e come Kubernetes lo orchestri?
     L'obiettivo del talk sarà quello di illustrare come Kubernetes ci permetta di applicare correttamente i Container Pattern per risolvere problemi ed utilizzare un common-language.
     Infine costruiremo un orchestratore di Pod con l'intendo di capire appieno gli internals che opera Kubernetes per fornire questa astrazione."
-# -
-#   speaker_id:
-#     -
-#   title:
-#   extract: >
+-
+  speaker_id:
+    - mark-waite
+  title: Evoluzione dei container nella continuous integration
+  extract: >
+    "Spesso l'implementazione della Continuous Integration (CI) segue modelli di crescita comuni. Il talk esaminerà l'implementazione della Continuous Integration e l'evoluzione dell'infrastruttura, partendo dalle build locali e arrivando allo sviluppo cloud-native e al testing."
