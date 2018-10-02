@@ -30,43 +30,6 @@ list:
       Qualche giorno prima del corso verrà fornito un voucer di accesso ai servizi AWS a tutti i partecipanti.
       È responsabilità del partecipante arrivare con portatile configurato e funzionante. Vi daremo tutte le indicazioni utili per la configurazione.
   -
-    slug: corso-ansible
-    title: Corso Ansible
-    when: 25 Ottobre 2018, Verona
-    where: Hotel San Marco, Via Longhena 42, 37138, Verona, Italy
-    map: https://goo.gl/maps/iqQ6n6bNAf72
-    ticket: /tickets.html
-    partner:
-      name: biodec
-      link: https://www.biodec.it
-    teacher:
-      name: Serena Lorenzini
-      picture:
-      bio: Ph.D., BioDec
-      link:
-    intro: |
-      "Automatizzare le attività ripetitive e standardizzare gli ambienti è un problema che investe il mondo IT sia dal lato della gestione dei sistemi (Ops) che dal lato dello sviluppo (Dev). Il proliferare delle piattaforme e in particolare l’uso delle soluzioni Cloud ha accentuato il problema, rendendo necessario avere strumenti veloci, affidabili e facili per la gestione di configurazioni e per il continuo rilascio di codice.
-      **Ansible: la nostra soluzione**
-      Ansible è uno strumento per orchestrare l’installazione e la configurazione di sistemi ed applicazioni: permette di definire lo stato di uno o più server in modo prevedibile, replicabile e consistente. Simile in questo a software come Puppet, Chef, Saltstack o CFEngine, esso basa la propria filosofia su una parola chiave: la semplicità d’uso
-      A differenza di altri sistemi, Ansible non necessita di altro che di una connessione SSH tra la macchina che funge da controllore e i server da controllare, e tutto si gestisce con semplici direttive di configurazione contenute in file testuali. Ancora: è una soluzione agentless per cui non è necessario installare nessun client sugli hosts da configurare, ma solo Python e – cosa che non guasta – è anche un prodotto che presenta una curva di apprendimento molto agevole."
-    program: |
-      Scaletta corso:
-      - 9:00 Registrazione dei partecipanti
-      - 9:30 Inizio del corso
-      - 11:00 Break
-      - 13:00 Pausa pranzo
-      - 14:30 Ripresa delle attività
-      - 16:00 Break
-      - 18:00 Conclusione
-
-      "Una piccola curiosita: la parola _ansible_ si riferisce all’omonimo dispositivo che nel romanzo di fantascienza _Il Gioco di Ender_ di Orson Scott Card permetteva di controllare remotamente le astronavi."
-    addressed_info: |
-      Il corso si applica a tutti, ma è bene avere una confidenza di base con la shell Bash – si lavorerà su una macchina Vagrant Debian Jessie.
-
-    useful_info: |
-      La durata del corso è di una giornata e **si terrà il 25 Ottobre** (il giorno prima del ContainerDay).
-      È responsabilità del partecipante arrivare con portatile configurato e funzionante con Vagrant. Vi daremo tutte le indicazioni utili per la configurazione.
-  -
     slug: workshop-docker-kubernetes
     title: Workshop Docker & Kubernetes
     when: 25 Ottobre 2018, Verona
