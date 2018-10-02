@@ -15,7 +15,7 @@
 -
   speaker_id:
     - vincenzo-laudizio
-  title: La nostra infrastruttura di produzione a container con Docker,Rancher e ZFS
+  title: La nostra infrastruttura di produzione a container con Docker, Rancher e ZFS
   extract: >
     "Esperienza di migrazione di un intero sistema informativo da VM a container, utilizzando Docker, Rancher e ZFS.
     Durante lo speech verrà mostrato come abbiamo ristrutturato il nostro sistema informativo aziendale affrontando tematiche di disaster recovery, monitoraggio e backup.
@@ -31,7 +31,7 @@
 -
   speaker_id:
     - massimo-referre
-  title: "Amazon Elastic Container Service for Kubernetes (EKS)"
+  title: "Amazon Elastic Container Service for Kubernetes (EKS): A case study"
   extract: >
     "In this talk we will quickly describe what Amazon Elastic Container Service for Kubernetes (EKS) is and what the customer requirements that led us to its development were. After this quick introduction, we will have a real customer that have been using EKS since the technical preview talking about their experience with the service."
 -

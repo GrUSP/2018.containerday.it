@@ -59,10 +59,10 @@ list:
     first_name: Paolo
     last_name: Mainardi
     twitter: paolomainardi
--
-  id: mark-waite
-  description:
-  image: mark-waite.jpg
-  first_name: Mark
-  last_name: Waite
-  twitter: MarkEWaite
+  -
+    id: mark-waite
+    description:
+    image: mark-waite.jpg
+    first_name: Mark
+    last_name: Waite
+    twitter: MarkEWaite
