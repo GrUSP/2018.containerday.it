@@ -37,6 +37,7 @@
 -
   speaker_id:
     - adriano-decicco
+    - enrico-ongaro
   title: "Nutanix Epoch (Netsil) Universal Observatory and Monitoring for Modern Cloud Apps"
   extract: >
     "Kubernetes si è affermato come leader nella orchestrazione di container e la sua complessità porta a nuove sfide nel monitoraggio dei cluster di produzione.
